@@ -1,8 +1,35 @@
 {
     "name": "jaydeep/laravel-guarddog",
     "description": "Laravel GuardDog — Scan your Laravel project for common security vulnerabilities and generate beautiful HTML reports.",
-    "keywords": ["laravel", "security", "scanner", "vulnerability", "audit", "guarddog"],
+    "keywords": [
+        "laravel",
+        "security",
+        "scanner",
+        "vulnerability",
+        "audit",
+        "guarddog",
+        "security-audit",
+        "security-scanner",
+        "static-analysis",
+        "sql-injection",
+        "csrf",
+        "owasp",
+        "penetration-testing",
+        "code-review",
+        "laravel-security",
+        "laravel-audit",
+        "security-report",
+        "php-security",
+        "artisan",
+        "devtools"
+    ],
+    "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/JaydeepGadhiya/laravel-guarddog",
+    "support": {
+        "issues": "https://github.com/JaydeepGadhiya/laravel-guarddog/issues",
+        "source": "https://github.com/JaydeepGadhiya/laravel-guarddog"
+    },
     "authors": [
         {
             "name": "Jaydeep Gadhiya",
