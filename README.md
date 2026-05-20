@@ -8,9 +8,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jaydeep/laravel-guarddog.svg?style=flat-square)](https://packagist.org/packages/jaydeep/laravel-guarddog)
 [![Total Downloads](https://img.shields.io/packagist/dt/jaydeep/laravel-guarddog.svg?style=flat-square)](https://packagist.org/packages/jaydeep/laravel-guarddog)
 [![License](https://img.shields.io/packagist/l/jaydeep/laravel-guarddog.svg?style=flat-square)](LICENSE.md)
-[![Stars](https://img.shields.io/github/stars/JaydeepGadhiya/laravel-guarddog)]()
-[![Code Style](https://img.shields.io/badge/code%20style-pint-blue.svg)]()
-[![Static Analysis](https://img.shields.io/badge/static%20analysis-phpstan-brightgreen)]()
+[![GitHub Stars](https://img.shields.io/github/stars/JaydeepGadhiya/laravel-guarddog?style=flat-square)](https://github.com/JaydeepGadhiya/laravel-guarddog/stargazers)
 
 **Scan your Laravel app in seconds. Catch SQL injection, missing auth middleware, exposed secrets, and more — before they hit production.**
 
@@ -102,7 +100,7 @@ GuardDog scans for the most common Laravel security vulnerabilities:
 - 📦 **Outdated packages with known CVEs** (via Packagist advisories)
 - 📦 **Composer `minimum-stability` set to dev**
 
-> Don't see a check you need? [Open an issue](https://github.com/jaydeep/laravel-guarddog/issues) — new checks ship regularly.
+> Don't see a check you need? [Open an issue](https://github.com/JaydeepGadhiya/laravel-guarddog/issues) — new checks ship regularly.
 
 ---
 
@@ -175,19 +173,6 @@ return [
     'fail_on' => 'critical', // critical | warning | notice
 ];
 ```
-
----
-## 📊 Security Score
-
-GuardDog scores your app from 0 to 100. Every issue subtracts points based on severity:
-
-| Severity | Points lost | Examples |
-|---|---|---|
-| 🔴 Critical | -15 | SQL injection, `eval()`, debug in prod |
-| 🟡 Warning | -5 | Missing auth middleware, weak session config |
-| 🔵 Notice | -1 | Style/best-practice nits |
-
-A score of **80+** is good. **90+** is excellent. **100** means GuardDog found nothing — though no scanner catches everything, so manual review still matters.
 
 ---
 ## 📊 Security Score
