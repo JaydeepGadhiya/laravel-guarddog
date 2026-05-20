@@ -40,9 +40,18 @@
         "php": "^7.4|^8.0",
         "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0|^11.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0"
+    },
     "autoload": {
         "psr-4": {
             "Jaydeep\\GuardDog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jaydeep\\GuardDog\\Tests\\": "tests/"
         }
     },
     "extra": {
